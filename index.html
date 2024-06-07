@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https: //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" >
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a classs="navegacion__enlace" href="#presentacion">
+                <h2 class="navegacion__titulo">Presentación Porfolio</h2>
+            </a>
+            <ul class="enlaces enlaces__item">
+                <li class="enlaces_item">
+                    <a class="enlaces_enlaces" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces_item">
+                    <a class="enlaces_enlaces" href="#sobre-mi">Sobre mi</a>
+                </li>
+            <li class="enlaces_item">
+                <a class="enlaces_enlaces" href="#Lenguajes">Lenguajes</a>
+            </li>
+        </ul>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+        <div class="presentacion__contenedor_info">
+            <h1 class="presentacion__titulo">Soy Desarrollador</h1>
+            <p class="presentacion__parrafo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="presentacion__contenedor_botones">
+            <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+            <a
+                href="./assets/docs/cv.pdf"
+                target="_blank"
+                class="boton boton_oscuro"
+                role="button"
+                >Descargar CV</a
+            >
+            </div>
+        </div>
+        </section>
+        <article class="articulo sobre_mi" id="sobre-mi">
+            <h2 class="articulo__titulo">Un poco sobre mi</h2>
+            <div class="articulo__contenedor_descripciones">
+            <section class="seccion_descripcion">
+                <div class="seccion_descripcion__porta_retrato">
+                <img
+                    class="seccion_descripcion__imagen"
+                    src="./assent/imagenes/MatiImagen.jpeg"
+                    alt="foto del desarrolador"
+                    title="foto del futuro desarrollador"
+                />
+                </div>
+                <div
+                class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                aria-label="descripcion personal"
+                >
+                <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                    Mi historia
+                </h3>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis. Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Molestiae dolorem
+                    quasi atque deserunt odio, minima saepe delectus nemo
+                    praesentium sapiente labore excepturi quos repellat non,
+                    officiis, ea vero commodi reiciendis. Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Molestiae dolorem quasi atque
+                    deserunt odio, minima saepe delectus nemo praesentium sapiente
+                    labore excepturi quos repellat non, officiis, ea vero commodi
+                    reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                </div>
+            </section>
+            <!-- explicacion: seguidamente tendremos una seccion muy similar a la anterior 
+                pero cambiaremos el orden de los elementos dejando la imagen al final -->
+            <section class="seccion_descripcion">
+                <div
+                class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                aria-label="descripcion personal"
+                >
+                <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                    Mis hobbies
+                </h3>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis. Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Molestiae dolorem
+                    quasi atque deserunt odio, minima saepe delectus nemo
+                    praesentium sapiente labore excepturi quos repellat non,
+                    officiis, ea vero commodi reiciendis. Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Molestiae dolorem quasi atque
+                    deserunt odio, minima saepe delectus nemo praesentium sapiente
+                    labore excepturi quos repellat non, officiis, ea vero commodi
+                    reiciendis.
+                </p>
+                <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae dolorem quasi atque deserunt odio, minima saepe
+                    delectus nemo praesentium sapiente labore excepturi quos
+                    repellat non, officiis, ea vero commodi reiciendis.
+                </p>
+                </div>
+                <div class="seccion_descripcion__porta_retrato">
+                <img
+                    class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                    src="./assent/imagenes/Hobbits.jpeg"
+                    alt="foto mientras me encontraba en una reunion de trabajo"
+                    title="selfie en una reunion"
+                />
+                </div>
+            </section>
+            </div>
+        </article>
+        
+        <article class="articulo proyectos" id="Lenguajes">
+            <h2 class="articulo__titulo">Mis Lenguajes</h2>
+            <div class="contenedor_tarjetas_grid">
+            <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal">
+                <img
+                class="tarjeta__imagen"
+                src="./assent/imagenes/LenguajesProgramacion.jpg" 
+                alt="imagen del proyecto"
+                title="proyecto 1"
+                />
+                <div class="tarjeta__contenido">
+                <h3 class="tarjeta__titulo" id="titulo_proyecto_1">IDIOMAS</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_1">
+                    Empece hace muy poco en el mundo de la Programacion, porque es algo que me intrigaba desde siempre, nunca antes tuve contacto cercano al código tampoco a la Programacion, recien estoy comenzando y los Lenguajes de Programacion que estoy aprendiendo son los siguientes..
+                </p>
+                <a href="#" class="boton boton_oscuro" target="_blank"
+                    >Ver proyecto</a
+                >
+                </div>
+            </article>
+            <!-- explicacion: pueden agregar tantas tarjetas como deseen, para ejemplificar agregaremos seis. 
+                Podemos hacerlo simplemente copiando y pegando. Yo en mi caso en algunas tarjetas agregare un pequeño cambio a los botones  -->
+            <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+            >
+                <img
+                class="tarjeta__imagen"
+                src="./assent/imagenes/html.png" 
+                alt="imagen del proyecto"
+                title="proyecto 2"
+                />
+                <div class="tarjeta__contenido">
+                <h3 class="tarjeta__titulo" id="titulo_proyecto_2">HTML</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                    class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_2"
+                >
+                    Empece en html no hace mucho tiempo, con el informatorio y videos en internet, todavia no tengo un buen manejor del lenguaje pero voy mejorando con cada error.
+                    Css es el idioma que menos practica poseo y el que mas me cuesta encontrar la sintaxis o la forma de aplica los conceptos en cuanto a tamaño de las cajas y diseño.
+                </p>
+                <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                </div>
+            </article>
+            <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+            >
+                <img
+                class="tarjeta__imagen"
+                src="./assent/imagenes/css.png"
+                alt="imagen del proyecto"
+                title="proyecto 3"
+                />
+                <div class="tarjeta__contenido">
+                <h3 class="tarjeta__titulo" id="titulo_proyecto_3">CSS</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_3"
+                >
+                Css es el idioma que menos practica poseo y el que mas me cuesta encontrar la sintaxis o la forma de aplica los conceptos en cuanto a tamaño de las cajas y diseño.
+                </p>
+                <a href="#" class="boton boton_oscuro" target="_blank"
+                    >Ver proyecto</a
+                >
+                </div>
+            </article>
+            <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+            >
+                <img
+                class="tarjeta__imagen"
+                src="./assent/imagenes/cpp.png"
+                alt="imagen del proyecto"
+                title="proyecto 3"
+                />
+                <div class="tarjeta__contenido">
+                <h3 class="tarjeta__titulo" id="titulo_proyecto_3">C++</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_3"
+                >
+                    Mi primer idioma de Programacion es c++ conozco su sintaxis, es el idioma que mas es practicado aunque no realice muchos proyectos con él.
+                </p>
+                
+                <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                
+                
+                </div>
+            </article>
+        </main>
+        <!-- repaso de todo lo incluido en la etiqueta main -->
+    
+        <!-- Por ultimo deben agregar la etiqueta footer. 
+        En esta aparecera nuestra informacion de contacto y 
+        también inluiremos enlaces de navegacion y derechos. -->
+        <footer class="pie_de_pagina" role="contentinfo">
+        <!-- explicacion: la primer columna sera para nuestras redes,
+            cabe aclarar que la estructura sera similar en todos los casos y solo habrá pequeños cambios -->
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+            <ul class="enlaces enlaces_redes">
+            <li class="enlaces__item">
+                <a
+                class="enlaces__enlace enlaces__enlace_footer"
+                href="https://github.com/Shiswal"
+                target="_blank"
+                ><img
+                    class="enlaces__icono"
+                    src="./assent/github-logo.png" style="width: 50px; height: 50px;"
+                    alt="logo de github"
+                    title="github"
+                /></a>
+            </li>
+            <li class="enlaces__item">
+                <a
+                class="enlaces__enlace enlaces__enlace_footer"
+                href="https://www.instagram.com/matiasdelgad2/"
+                target="_blank"
+                >
+                <img
+                    class="enlaces__icono"
+                    src="./assent/ig-logo.png" style="width: 50px; height: 50px;"
+                    alt="logo de instagram"
+                    title="instagram"
+                />
+                </a>
+            </li>
+            <li class="enlaces__item">
+                <a
+                class="enlaces__enlace enlaces__enlace_footer"
+                href="https://x.com/DELGADOMat2001"
+                target="_blank"
+                ><img
+                    class="enlaces__icono"
+                    src="./assent/x-logo.png" style="width: 50px; height: 50px;"
+                    alt="logo de X"
+                    title="X"
+                /></a>
+            </li>
+            </ul>
+        </div>
+        <!-- explicacion: la segunda columna sera para nuestros medios de contacto  -->
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+            <ul class="enlaces enlaces_vertical">
+            <li class="enlaces__item">
+                <a
+                class="enlaces__enlace enlaces__enlace_footer"
+                href="mdadrian94@gmail.com"
+                target="_blank"
+                >Mail: mdadrian94@gmail.com</a
+                >
+            </li>
+            <li
+            class="enlaces__item">Celular: 3644162643</li>
+            </ul>
+        </div>
+        <!-- explicacion: la ultima columna sera para los enlaces de navegacion -->
+        <div class="pie_de_pagina__columna" role="navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+            <li class="enlaces__item">
+                <a
+                class="enlaces__enlace enlaces__enlace_footer"
+                href="#presentacion"
+                >Inicio</a
+                >
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+                >Sobre mi</a
+                >
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#Lenguajes"
+                >Lenguajes</a
+                >
+            </li>
+            </ul>
+        </div>
+        <!-- por ultimo los derechos de la pagina -->
+        <div class="pie_de_pagina__copyright">
+            <p>©️Copyright 2024</p>
+        </div>
+        </footer>
+        <!-- repaso de los elementos en el footer -->
+    </body>
+    </html>
