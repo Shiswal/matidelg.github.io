@@ -241,6 +241,9 @@ gap: 2rem;
     justify-content: space-around;
     align-items: center;
 }
+.enlaces__superior{
+    margin-left: 240px;
+}
 .enlaces_redes {
     width: 100%;
 }
